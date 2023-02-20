@@ -1,0 +1,549 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&family=Roboto&display=swap");
+
+:root {
+    --twitter-dark: #292F33;
+    --white: #ffffff;
+    --dark: rgb(0, 0, 0);
+    --primary-color: #070920;
+    --secondary-color: rgb(51, 55, 71);
+    --border-color: rgba(51, 55, 71, 0.7);
+    --light-blue-color: #f8f9fa;
+    --time-color: #adb5bd;
+    /* --hover-color: #6e8eac; */
+    --social-blue: #2225c2;
+    --social-skyblue: #3bb0c7;
+    --social-pink: #e7238f;
+    --social-green: rgb(56, 189, 62);
+}
+
+/* Global Styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    font-family:
+        /* "Roboto", sans-serif; */
+
+        "system-ui",
+        -apple-system,
+        "Segoe UI",
+        Roboto,
+        "Helvetica Neue",
+        "Noto Sans",
+        "Liberation Sans",
+        Arial,
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji";
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
+
+/* color */
+.bg-twt {
+    background-color: var(--twitter-dark);
+}
+
+.bg-gmail-red {
+    background-color: #BB001B;
+    color: white;
+}
+
+.text-bg-twt {
+    background-color: var(--twitter-dark);
+}
+
+.text-twt {
+    color: var(--twitter-dark);
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.facebook-blue {
+    color: #4267B2;
+}
+
+.twitter-blue {
+    color: #1DA1F2;
+}
+
+.bg-recent-color {
+    background-color: rgb(238, 238, 238)
+}
+
+/* font & icon */
+.ff-robo {
+    font-family: "roboto",
+        serif;
+}
+
+.ff-tn {
+    font-family: "Times New Roman", sans-serif;
+}
+
+.ff-popp {
+    font-family: "poppins", sans-serif;
+}
+
+.fs-7 {
+    font-size: 15px;
+}
+
+.fs-8 {
+    font-size: 14px;
+}
+
+.fs-9 {
+    font-size: 13px;
+}
+
+.fs-10 {
+    font-size: 12px;
+}
+
+.fs-11 {
+    font-size: 10px;
+}
+
+.img-home {
+    width: 15px;
+    height: 16px;
+    color: white;
+    /* background-color: white; */
+}
+
+.img-about {
+    width: 15px;
+    height: 16px;
+}
+
+.img-gmail {
+    width: 15px;
+    height: 16px;
+}
+
+.toggle-bar {
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    width: 40px;
+    height: 32px;
+    margin-top: 2px;
+
+}
+
+/* spacing */
+/* .p-0-7 {
+    padding: 4% 4%;
+} */
+
+.p-0-8 {
+    padding: 7% 7%;
+}
+
+.p-0-9 {
+    padding: 2px 4px;
+}
+
+/* 
+.px-7 {
+    padding: 0px 30px;
+} */
+/* 
+.px-8 {
+    padding: 0px 40px;
+} */
+
+.px-9 {
+    padding: 0px 50px;
+}
+
+/* navbar */
+.navbar {
+    margin-bottom: 20px;
+}
+
+#search a {
+    margin-bottom: 10px;
+}
+
+#socialIcons a {
+    margin-left: 30px;
+    /* margin-bottom: 10px; */
+    margin-top: 0;
+}
+
+.search-input {
+    max-width: 300px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-top: 0px;
+    height: 25px;
+}
+
+.bg-drop-color {
+    background-color: #212529;
+}
+
+.bg-drop-color-2 {
+    background-color: var(--border-color);
+}
+
+.dropdown-menu li a:hover {
+    background-color: #292c30;
+    color: white;
+}
+
+.navbar-nav .dropdown-menu li a:hover {
+    background-color: #550f32;
+    color: white;
+}
+
+.navbar-nav .dropdown-menu li:last-child {
+    border-top: dotted white 1px;
+}
+
+/* main */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 15rem;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+#main-col .p-pic {
+    width: 40px;
+    height: 40px;
+}
+
+/* #main-col iframe {
+    width: 100%;
+    height: 200px;
+} */
+
+/* Blog Post */
+.blog-post {
+    margin-bottom: 4rem;
+}
+
+.blog-post-title {
+    /* font-size: 2.5rem; */
+}
+
+.blog-post-meta {
+    margin-bottom: 1.25rem;
+    color: #727272;
+}
+
+#author-card {
+    box-shadow: 3px 3px 10px;
+}
+
+#author-card .p-pic {
+    width: 100px;
+    height: 100px;
+}
+
+#author-card .img-gmail {
+    width: 15px;
+    height: 15px;
+}
+
+.reply {
+    display: none;
+}
+
+#comment-section:hover .comment-1 .reply {
+    display: flex;
+}
+
+#comment-section .p-pic {
+    width: 32px;
+    height: 32px;
+}
+
+
+/* Sidebar */
+.sidebar-sticky {
+    top: 2rem;
+    min-width: 200px;
+    max-width: 350px;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.btn-toggle {
+    padding: .25rem .5rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .65);
+    background-color: transparent;
+}
+
+.btn-toggle:hover,
+.btn-toggle:focus {
+    color: rgba(0, 0, 0, .85);
+    background-color: #d2f4ea;
+}
+
+.btn-toggle::before {
+    width: 1.25em;
+    line-height: 0;
+    content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+    transition: transform .35s ease;
+    transform-origin: .5em 50%;
+}
+
+.btn-toggle[aria-expanded="true"] {
+    color: rgba(0, 0, 0, .85);
+}
+
+.btn-toggle[aria-expanded="true"]::before {
+    transform: rotate(90deg);
+}
+
+.btn-toggle-nav a {
+    padding: .1875rem .5rem;
+    margin-top: .125rem;
+    margin-left: 1.25rem;
+}
+
+.btn-toggle-nav a:hover,
+.btn-toggle-nav a:focus {
+    background-color: #d2f4ea;
+}
+
+/* ads-sidebar */
+#ads-sidebar {
+    display: none;
+}
+
+/* Posts */
+.border-dotted {
+    border-bottom: dotted;
+    border-width: 1px;
+}
+
+/* Footer */
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.newsletter {
+    display: none;
+}
+
+/* Media Queries */
+
+@media (min-width: 1200px) {
+
+    #ads-sidebar {
+        display: block;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .navbar button {
+        display: none;
+    }
+
+    .navbar h6 {
+        margin-left: 48px;
+        /* margin-right: auto; */
+    }
+
+    .offcanvas-md {
+        display: flex;
+    }
+
+    #offcanvasWithBothOptions .navbar-nav {
+        display: none;
+    }
+
+    #offcanvasWithBothOptions .search-icon {
+        margin-right: 20px;
+    }
+
+    .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+    }
+
+    main .sidebar-sticky {
+        margin-right: 0;
+        margin-left: auto;
+    }
+
+    #main-col {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        padding-top: 4.5rem;
+    }
+
+    .h1 {
+        font-size: 35.97px;
+    }
+
+    .h2 {
+        font-size: 29.182px;
+    }
+
+    .h3 {
+        font-size: 25.788px;
+    }
+
+    .h4 {
+        font-size: 22.394px;
+    }
+
+    .h5 {
+        font-size: 19px;
+    }
+
+    .h6 {
+        font-size: 15px;
+    }
+
+    .fs-7 {
+        font-size: 14px;
+    }
+
+    .fs-8 {
+        font-size: 13px;
+    }
+
+    .fs-9 {
+        font-size: 12px;
+    }
+
+    .fs-10 {
+        font-size: 11px;
+    }
+
+    .fs-11 {
+        font-size: 9px;
+    }
+
+    .navbar h6 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #offcanvasWithBothOptions {
+        margin-top: 46px;
+        padding-left: 4px;
+    }
+
+    #offcanvasWithBothOptions ul li {
+        margin: 5px 0;
+    }
+
+    #offcanvasWithBothOptions ul li a {
+        margin: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #sidebar {
+        display: none;
+    }
+
+    #category-drop {
+        display: block;
+    }
+
+    #socialIcons {
+        margin-right: auto;
+
+    }
+
+
+    .newsletter {
+        display: block;
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 575px) {
+    .h1 {
+        font-size: 34.97px;
+    }
+
+    .h2 {
+        font-size: 28.182px;
+    }
+
+    .h3 {
+        font-size: 24.788px;
+    }
+
+    .h4 {
+        font-size: 21.394px;
+    }
+
+    .h5 {
+        font-size: 18px;
+    }
+
+    .h6 {
+        font-size: 14px;
+    }
+
+    .fs-7 {
+        font-size: 13px;
+    }
+
+    .fs-8 {
+        font-size: 12px;
+    }
+
+    .fs-9 {
+        font-size: 11px;
+    }
+
+    .fs-10 {
+        font-size: 10px;
+    }
+
+    .fs-11 {
+        font-size: 8px;
+    }
+
+    .px-7 {
+        padding: 0px 27px;
+    }
+}
