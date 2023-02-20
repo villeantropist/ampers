@@ -345,6 +345,11 @@ a {
     display: none;
 }
 
+#ads-sidebar img {
+    max-width: 170px;
+    max-height: 170px;
+}
+
 /* Posts */
 .border-dotted {
     border-bottom: dotted;
