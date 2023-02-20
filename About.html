@@ -31,35 +31,32 @@
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand font-arial mx-custom" href="#"> Ampers<strong>&</strong> </a>
+            <h6 class="align-self-center mb-0">
+                <a href="#" class="navbar-brand me-0"> Ampers<strong>&</strong> </a>
+            </h6>
 
-            <div class="offcanvas offcanvas-start bg-dark" data-bs-scroll="true" tabindex="-1"
+            <div class="offcanvas-md offcanvas-start bg-dark" data-bs-scroll="true" tabindex="-1"
                 id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
 
-                <!-- <p class="navbar-toggler close border border-0" type="button" data-bs-dismiss="offcanvas">
-                    <span>
-                        <i class="fa-solid fa-xmark text-white"></i>
-                    </span>
-                </p> -->
-
-                <ul class="navbar-nav mb-2 mb-md-0">
+                <ul class="navbar-nav">
                     <li class="nav-item mx-2">
-                        <a class="nav-link active fs-7 fw-semibold" aria-current="page" href="#">
-                            <i class="fa-solid fa-house pe-1 fs-10"></i> Home </a>
+                        <a class="nav-link active align-items-center fs-7 fw-semibold" aria-current="page" href="#">
+                            <i class="fa-solid fa-house fs-10 pe-1"></i> Home </a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link fs-7 fw-semibold" href="#">
-                            <i class="fa-solid fa-circle-info text-white pe-1 fs-10"></i> About
+                        <a class="nav-link align-items-center fs-7 fw-semibold" href="About.html">
+                            <i class="fa-solid fa-circle-info text-white fs-10 pe-1"></i> About
                         </a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link fs-7 fw-semibold" href="#">
-                            <i class="fa-solid fa-handshake-angle text-white pe-1 fs-10"></i> Support
+                        <a class="nav-link align-items-center fs-7 fw-semibold" href="/">
+                            <i class="fa-solid fa-handshake-angle text-white fs-10 pe-1"></i> Support
                         </a>
                     </li>
                     <li class="nav-item dropdown mx-2" id="category-drop">
-                        <a class="nav-link dropdown-toggle fs-7 fw-semibold" href="#" data-bs-toggle="dropdown"
-                            aria-expanded="false"><i class="fa-solid fa-parachute-box pe-1 text-white fs-10"></i>
+                        <a class="nav-link align-items-center dropdown-toggle fs-7 fw-semibold" href="#"
+                            data-bs-toggle="dropdown" aria-expanded="false"><i
+                                class="fa-solid fa-parachute-box text-white pe-1 fs-10"></i>
                             Categories
                         </a>
                         <ul class="dropdown-menu border-0 rounded-0 bg-drop-color-2 pe-3 ms-4">
@@ -87,7 +84,8 @@
                         </ul>
                     </li>
                 </ul>
-                <div class="social-icons d-flex align-items-center">
+
+                <div id="socialIcons" class="align-self-center">
                     <a href="#" class="" aria-label="link">
                         <i class="fa-brands fa-facebook-f facebook-blue"></i>
                     </a>
@@ -99,7 +97,7 @@
                     </a>
                 </div>
 
-                <form class="d-flex" role="search">
+                <form id="search" class="d-flex" role="search">
                     <input
                         class="form-control search-input rounded-0 border border-white border-top-0 border-start-0 border-end-0 bg-transparent text-white"
                         type="search" placeholder="Search" aria-label="Search">
@@ -362,28 +360,29 @@
 
                             <h6> Affiliations </h6>
                             <p>
-                                <ul>
-                                    <li class="py-2">
-                                        <a href="www.binance.com" class="text-primary"> Binance </a>
-                                    </li>
-                                    <li class="py-2">
-                                        <a href="www.Bybit.com" class="text-primary"> ByBit </a>
-                                    </li>
-                                    <li class="py-2"><a href="www.WhiteBit.com" class="text-primary"> WhiteBit </a>
-                                    </li>
-                                    <li class="py-2">
-                                        <a href="www.Kucoin.com" class="text-primary"> Kucoin </a>
-                                    </li>
-                                    <li class="py-2">
-                                        <a href="www.Okex.com" class="text-primary"> Okex </a>
-                                    </li>
-                                </ul>
+                            <ul>
+                                <li class="py-2">
+                                    <a href="www.binance.com" class="text-primary"> Binance </a>
+                                </li>
+                                <li class="py-2">
+                                    <a href="www.Bybit.com" class="text-primary"> ByBit </a>
+                                </li>
+                                <li class="py-2"><a href="www.WhiteBit.com" class="text-primary"> WhiteBit </a>
+                                </li>
+                                <li class="py-2">
+                                    <a href="www.Kucoin.com" class="text-primary"> Kucoin </a>
+                                </li>
+                                <li class="py-2">
+                                    <a href="www.Okex.com" class="text-primary"> Okex </a>
+                                </li>
+                            </ul>
                             </p>
 
                         </div>
                     </div>
                 </div>
 
+                <!-- This column is for google ads. Not yet well designed -->
                 <div class=" col-xl-2" id="ads-sidebar">
                     <div class="position-sticky sidebar-sticky bg-white rounded-2">
                         <div class="flex-shrink-0 p-3 shadow-sm rounded-2">
