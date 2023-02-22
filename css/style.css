@@ -37,7 +37,7 @@ body {
         "Segoe UI Emoji",
         "Segoe UI Symbol",
         "Noto Color Emoji";
-    min-height: 75rem;
+    /* min-height: 75rem; */
     padding-top: 4.5rem;
 }
 
@@ -124,6 +124,15 @@ a {
 .img-gmail {
     width: 15px;
     height: 16px;
+}
+
+/* width and padding */
+.w-60 {
+    max-width: 60%;
+}
+
+.w-90 {
+    max-width: 90%;
 }
 
 .toggle-bar {

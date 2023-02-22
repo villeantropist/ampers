@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ampers& | Sign Up </title>
+
+    <!-- bootstrap css CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- css file -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- javascript -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="images/ben-sweet-2LowviVHZ-E-unsplash.jpg">
+
+</head>
+
+<body>
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <h6 class="align-self-center mb-0">
+                <a href="#" class="navbar-brand me-0"> Ampers<strong>&</strong> </a>
+            </h6>
+
+            <div class="offcanvas-md offcanvas-start bg-dark" data-bs-scroll="true" tabindex="-1"
+                id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active align-items-center fs-7 fw-semibold" aria-current="page" href="#">
+                            <i class="fa-solid fa-house fs-10 pe-1"></i> Home </a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link align-items-center fs-7 fw-semibold" href="About.html">
+                            <i class="fa-solid fa-circle-info text-white fs-10 pe-1"></i> About
+                        </a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link align-items-center fs-7 fw-semibold" href="/">
+                            <i class="fa-solid fa-handshake-angle text-white fs-10 pe-1"></i> Support
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown mx-2" id="category-drop">
+                        <a class="nav-link align-items-center dropdown-toggle fs-7 fw-semibold" href="#"
+                            data-bs-toggle="dropdown" aria-expanded="false"><i
+                                class="fa-solid fa-parachute-box text-white pe-1 fs-10"></i>
+                            Categories
+                        </a>
+                        <ul class="dropdown-menu border-0 rounded-0 bg-drop-color-2 pe-3 ms-4">
+                            <li class="dropdown-item mx-2 p-0">
+                                <a class="nav-link bg-drop-color py-2 ps-1 text-white flex-wrap" href="#"
+                                    data-bs-toggle="dropdown" aria-expanded="false"> Recent Metaverse Project </a>
+                            </li>
+
+                            <li class="dropdown-item mx-2 p-0">
+                                <a class="nav-link bg-drop-color py-2 ps-1 text-white" href="#"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Recent Metaverse Project </a>
+                            </li>
+
+                            <li class="dropdown-item dropdown mx-2 p-0">
+                                <a class="nav-link dropdown-toggle bg-drop-color py-2 ps-1 text-white" href="#"
+                                    data-bs-toggle="dropdown" aria-expanded="false"> Recent Metaverse Project </a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item">
+                                        <h1>hi</h1>
+                                    </li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <div id="socialIcons" class="align-self-center">
+                    <a href="#" class="" aria-label="link">
+                        <i class="fa-brands fa-facebook-f facebook-blue"></i>
+                    </a>
+                    <a href="#" class="" aria-label="link">
+                        <i class="fa-brands fa-twitter twitter-blue fs-6"></i>
+                    </a>
+                    <a href="#" class="" aria-label="link">
+                        <img src="images/Gmail.png" alt="" class="p-0 pb-1 img-gmail">
+                    </a>
+                </div>
+
+                <form id="search" class="d-flex" role="search">
+                    <input
+                        class="form-control search-input rounded-0 border border-white border-top-0 border-start-0 border-end-0 bg-transparent text-white"
+                        type="search" placeholder="Search" aria-label="Search">
+                    <div class="d-flex align-items-center search-icon ms-2">
+                        <a class="link-secondary mx-auto my-0 mt-3" href="#" aria-label="Search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="px-1 px-sm-2 px-md-3 px-lg-4">
+            <!-- main -->
+            <div class="row">
+                <div class="col-sm-12 col-md-8 col-lg-6 mx-auto" id="signup">
+                    <div class="container bg-white w-60 rounded-2 shadow-lg mx-aut my-5">
+                        <form action="get">
+                            <fieldset>
+                                <legend class=" fs-5 text-center my-3"> Sign Up </legend>
+                                <div class="w-90 mx-auto">
+                                    <input type="text" name="fullname" id="name" class="form-control fs-9"
+                                        placeholder="Enter Your Full Name">
+                                </div>
+
+                                <div class="w-90 mx-auto my-2">
+                                    <input type="email" name="email" id="email" class="form-control fs-9"
+                                        placeholder="Enter Your Email">
+                                </div>
+
+                                <div class="w-90 mx-auto my-2">
+                                    <input type="text" name="username" id="username" class="form-control fs-9"
+                                        placeholder="Enter Username (15 Letters Max.)">
+                                </div>
+
+                                <div class="w-90 mx-auto my-2">
+                                    <input type="password" name="password" id="password" class="form-control fs-9"
+                                        placeholder="Enter Password">
+                                </div>
+
+                                <div class="w-90 mx-auto my-2">
+                                    <input type="password" name="checkbox" id="password-2" class="form-control fs-9"
+                                        placeholder="Repeat Password">
+                                </div>
+
+                                <div class="form-check my-2 d-flex w-90 mx-auto">
+                                    <input type="checkbox" name="checkbox" id="newsletter"
+                                        class="form-check-input me-1 p-0" checked>
+                                    <label for="newsletter" class="form-check-label flex-wrap fs-10 me-0"> Agree to
+                                        receive
+                                        daily newsletters and update </label>
+                                </div>
+
+                                <div class="text-center mx-auto my-2">
+                                    <button type="button" id="submit" value="button"
+                                        class="bg-primary rounded-2 border-0 text-white"> Submit
+                                    </button>
+                                </div>
+                                <div class="text-center mb-3">
+                                    <h6 class="fs-9"> By signing, you agree to our
+                                        <a href="#" class="text-primary">Terms of Use</a> and
+                                        <a href="#" class="text-primary">Privacy Policy</a>
+                                    </h6>
+                                </div>
+
+                                <div class="border-top text-center mt-2 py-2">
+                                    <h6 class="fs-9"> Already have an account?
+                                        <a href="login.html" class="text-primary"> Log In</a>
+                                    </h6>
+                                </div>
+
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="container-fluid">
+        <footer class="mt-5 pt-2">
+            <div class="pt-2 border-top justify-content-center">
+                <p class="ff-popp text-center text-muted">&copy; 2023 Amper&, Inc. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- bootstrap js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/a78af164ed.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
