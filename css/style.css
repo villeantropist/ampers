@@ -90,6 +90,10 @@ a {
     font-family: "poppins", sans-serif;
 }
 
+.fs-0 {
+    font-size: 0px;
+}
+
 .fs-7 {
     font-size: 15px;
 }
@@ -166,17 +170,25 @@ a {
     margin-bottom: 10px;
 }
 
+#account-pic img {
+    width: 25px;
+    height: 25px;
+}
+
 #socialIcons a {
-    margin-left: 30px;
+    margin-left: 15px;
     margin-top: 0;
 }
 
 .search-input {
-    max-width: 300px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     margin-left: 20px;
     padding-top: 0px;
     height: 25px;
+}
+
+#login {
+    display: flex;
 }
 
 .bg-drop-color {
@@ -362,6 +374,18 @@ a {
     }
 }
 
+@media (min-width: 992px) {
+    #offcanvasWithBothOptions .search-icon {
+        margin-right: 29px;
+    }
+}
+
+@media (max-width: 991px) {
+    .search-input {
+        width: 65%;
+        margin-left: 0px;
+    }
+}
 
 @media (min-width: 768px) {
     .navbar button {
@@ -380,8 +404,12 @@ a {
         display: none;
     }
 
-    #offcanvasWithBothOptions .search-icon {
-        margin-right: 20px;
+    #search {
+        justify-content: center;
+    }
+
+    #login {
+        margin-right: 28px;
     }
 
     .bi {
@@ -455,7 +483,7 @@ a {
     }
 
     #offcanvasWithBothOptions {
-        margin-top: 46px;
+        margin-top: 40px;
         padding-left: 4px;
     }
 
@@ -479,9 +507,29 @@ a {
 
     #socialIcons {
         margin-right: auto;
-
     }
 
+    #search {
+        margin-left: 8px;
+    }
+
+    .search-input {
+        max-width: 300px;
+        margin-top: 10px;
+    }
+
+    .search-icon {
+        margin-top: 16px;
+    }
+
+    #login {
+        margin-right: 0px;
+        width: 43px;
+    }
+
+    #account-pic {
+        margin-top: 3px;
+    }
 
     .newsletter {
         display: block;
