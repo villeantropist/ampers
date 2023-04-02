@@ -130,7 +130,23 @@ a {
     height: 16px;
 }
 
-/* width and padding */
+/* width, height, padding and positioning */
+.w-5 {
+    max-width: 5%;
+}
+
+.w-10 {
+    max-width: 10%;
+}
+
+.w-15 {
+    max-width: 15%;
+}
+
+.w-20 {
+    max-width: 20%;
+}
+
 .w-60 {
     max-width: 60%;
 }
@@ -139,15 +155,14 @@ a {
     max-width: 90%;
 }
 
-.toggle-bar {
-    position: absolute;
-    top: 9px;
-    right: 9px;
-    width: 40px;
-    height: 32px;
-    margin-top: 2px;
+.h-32 {
+    height: 38px;
 }
 
+.py-0-2 {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
 
 .p-0-8 {
     padding: 7% 7%;
@@ -159,6 +174,19 @@ a {
 
 .px-9 {
     padding: 0px 50px;
+}
+
+.toggle-bar {
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    width: 40px;
+    height: 32px;
+    margin-top: 2px;
+}
+
+.left-37 {
+    left: 37px;
 }
 
 /* navbar */
@@ -355,6 +383,18 @@ a {
     border-width: 1px;
 }
 
+/* Support */
+.paypal,
+.payonner {
+    width: 50px;
+    height: 50px;
+}
+
+.master-card {
+    width: 55px;
+    height: 50px;
+}
+
 /* Footer */
 .bi {
     vertical-align: -.125em;
@@ -410,6 +450,12 @@ a {
 
     #login {
         margin-right: 28px;
+    }
+
+    #account-pic ul {
+        top: 78%;
+        right: 0.5%;
+        left: 75%;
     }
 
     .bi {

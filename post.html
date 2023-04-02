@@ -49,7 +49,7 @@
                         </a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link align-items-center fs-7 fw-semibold" href="/">
+                        <a class="nav-link align-items-center fs-7 fw-semibold" href="support.html">
                             <i class="fa-solid fa-handshake-angle text-white fs-10 pe-1"></i> Support
                         </a>
                     </li>
@@ -108,15 +108,13 @@
                     </div>
                 </form>
 
-                <div id="account-pic" class="dropdown d-flex align-items-center me-5">
-                    <a href="#" class="link-dark text-decoration-none dropdown-toggle p-0 m-0 fs-0"
+                <div id="account-pic" class="d-flex align-items-center me-5">
+                    <a href="#" class="dropdown link-dark text-decoration-none dropdown-toggle p-0 m-0 fs-0"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         <img src="images/alex-knight-2EJCSULRwC8-unsplash.jpg" alt="uz" class="rounded">
                     </a>
                     <ul class="dropdown-menu text-small mt-2">
-                        <li><a class="dropdown-item" href="#">New project...</a></li>
-                        <li><a class="dropdown-item" href="#">Settings</a></li>
-                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="profile.html">Profile</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
@@ -125,8 +123,8 @@
                 </div>
 
                 <!-- <button type="button" id="login" value="button" class="bg-primary rounded-2 border-0 text-white fw-semibold fs-9">
-                        Login
-                    </button> -->
+                    Login
+                </button> -->
             </div>
         </div>
     </nav>
@@ -135,19 +133,14 @@
         <div class="px-1 px-sm-2 px-md-3 px-lg-4">
             <!-- main -->
             <div class="row">
-                <div id="sidebar" class="col-md-4 col-xl-3">
+                <div class="col-md-4 col-xl-3" id="sidebar">
                     <div class="position-sticky sidebar-sticky bg-white rounded-2">
-                        <div class="flex-shrink-0 p-3 shadow-sm rounded-2">
-                            <a href="/"
-                                class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
-                                <svg class="bi pe-none me-2" width="30" height="24">
-                                    <use xlink:href="#bootstrap" />
-                                </svg>
-                                <span class="fs-4 fw-semibold mt-3"> Welcome </span>
-                            </a>
+                        <div class="flex-shrink-0 p-3 shadow-sm rounded-top2">
+                            <h6 class="fs-4 fw-semibold mt-3 ms-4"> Welcome </h6>
                             <ul class="list-unstyled ps-0">
+                                <li class="border-top my-3"></li>
                                 <li class="fw-semibold text-muted ms-3 mb-3">
-                                    <a class="nav-link active fs-7 fw-semibold" aria-current="page" href="index.html">
+                                    <a class="nav-link active fs-7 fw-semibold" aria-current="page" href="#">
                                         <i class="fa-solid fa-house pe-1 fs-10"></i> Home
                                     </a>
                                 </li>
@@ -159,97 +152,39 @@
                                 </li>
 
                                 <li class="fw-semibold text-muted ms-3 mb-3">
-                                    <a class="nav-link fs-7 fw-semibold" href="#">
+                                    <a class="nav-link fs-7 fw-semibold" href="support.html">
                                         <i class="fa-solid fa-handshake-angle pe-1 fs-10"></i> Support / Partnership
                                     </a>
                                 </li>
 
-                                <li class="border-top my-3"></li>
-                                <li class="mb-1">
-                                    <button
-                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-                                        data-bs-toggle="collapse" data-bs-target="#account-collapse"
-                                        aria-expanded="false">
-                                        Account
-                                    </button>
-                                    <div class="collapse" id="account-collapse">
-                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                            <li><a href="#"
-                                                    class="link-dark d-inline-flex text-decoration-none rounded">New...</a>
-                                            </li>
-                                            <li><a href="#"
-                                                    class="link-dark d-inline-flex text-decoration-none rounded">Profile</a>
-                                            </li>
-                                            <li><a href="#"
-                                                    class="link-dark d-inline-flex text-decoration-none rounded">Settings</a>
-                                            </li>
-                                            <li><a href="#"
-                                                    class="link-dark d-inline-flex text-decoration-none rounded">Sign
-                                                    out</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
                             </ul>
 
-                            <a href="/"
-                                class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
-                                <svg class="bi pe-none me-2" width="30" height="24">
-                                    <use xlink:href="#bootstrap" />
-                                </svg>
-                                <span class="fs-5 fw-semibold mt-3"> Categories </span>
-                            </a>
+                            <h6 class="fs-5 fw-semibold ms-4 mb-3"> Categories </h6>
                             <ul class="list-unstyled ps-0">
                                 <li class="fw-semibold text-muted ms-3 mb-3">
-                                    <i class="fa-sharp fa-solid fa-square-full fs-11 pe-1"></i class=" text-muted">
+                                    <i class="fa-solid fa-circle text-primary fs-11 pe-1"></i>
                                     Airdrop
                                     </a>
                                 </li>
                                 <li class="fw-semibold text-muted ms-3 mb-3">
-                                    <i class="fa-sharp fa-solid fa-square-full fs-11 pe-1"></i>
+                                    <i class="fa-solid fa-circle text-primary fs-11 pe-1"></i>
                                     <a href="" class=" text-muted">
                                         Metaverse
                                     </a>
                                 </li>
 
                                 <li class="fw-semibold text-muted ms-3 mb-3">
-                                    <i class="fa-sharp fa-solid fa-square-full fs-11 pe-1"></i>
+                                    <i class="fa-solid fa-circle text-primary fs-11 pe-1"></i>
                                     <a href="" class=" text-muted">
                                         NFT
                                     </a>
                                 </li>
 
                                 <li class="fw-semibold text-muted ms-3 mb-3">
-                                    <i class="fa-sharp fa-solid fa-square-full fs-11 pe-1"></i>
+                                    <i class="fa-solid fa-circle text-primary fs-11 pe-1"></i>
                                     <a href="" class=" text-muted">
                                         Web3
                                     </a>
-                                </li>
-
-                                <li class="mb-1">
-                                    <button
-                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-                                        data-bs-toggle="collapse" data-bs-target="#airdrop-collapse"
-                                        aria-expanded="false">
-                                        Airdrops
-                                    </button>
-                                    <div class="collapse" id="airdrop-collapse">
-                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                            <li><a href="#"
-                                                    class="link-dark d-inline-flex text-decoration-none rounded">
-                                                    Recent
-                                                    Airdrops </a>
-                                            </li>
-                                            <li><a href="#"
-                                                    class="link-dark d-inline-flex text-decoration-none rounded">
-                                                    Top
-                                                    Airdrops </a>
-                                            </li>
-                                            <li><a href="#"
-                                                    class="link-dark d-inline-flex text-decoration-none rounded">
-                                                    Popular Airdrops </a>
-                                            </li>
-                                        </ul>
-                                    </div>
                                 </li>
                             </ul>
                         </div>
@@ -339,7 +274,7 @@
                         </h3>
                         <p class="mb-1 ms-sm-2 text-center">
                             <span title="Tag"
-                                class="badge rounded-pill text-decoration-none text-bg-primary fs-11 py-1">
+                                class="badge rounded-pill text-decoration-none text-bg-secondary fs-11 py-1">
                                 Primary
                             </span>
                             <span title="Tag"
@@ -347,7 +282,7 @@
                                 Secondary
                             </span>
                             <span title="Tag"
-                                class="badge rounded-pill text-decoration-none text-bg-success fs-11 py-1">
+                                class="badge rounded-pill text-decoration-none text-bg-secondary fs-11 py-1">
                                 Success
                             </span>
                         </p>
@@ -661,95 +596,31 @@
 
                         <div id="comment-section" class="comment bg-dark-subtle rounded-2 my-2 pt-2 pb-3">
                             <h6 class=" fs-7 px-3"> Comment Below </h6>
-                            <div
-                                class="comment-1 position-relative bg-secondary-subtle d-flex rounded-2 mx-2 my-2 pt-4 pb-2 px-2">
-                                <p class="position-absolute bg-dange top-0 start-0 fs-10 ms-5 mt-1">
-                                    <a href="" class="d-inline-block text-dark text-truncate w-50"> Replied Uzoukwu
-                                        Chinedu: Lorem ipsum dolor sit, amet
-                                        consectetur adipisicing elit. Quos, pariatur?
-                                    </a>
-                                </p>
-                                <img src="images/ben-sweet-2LowviVHZ-E-unsplash.jpg" alt="" class="p-pic rounded">
-                                <div class=" pt-0 flex-fill">
+                            <div class="comment-1 bg-secondary-subtle rounded-2 mx-2 my-2 py-2 px-2">
+                                <div class=" pt-0">
                                     <div class="position-relative d-flex">
-                                        <p class="fs-7 fw-semibold mb-0 px-2">Uzoukwu Chinedu</p>
-                                        <span class="fs-9 text-muted align-self-center"> January 1, 2023 </span>
-                                        <span
-                                            class="reply position-absolute top-0 end-0 ms-auto me-sm-3 me-md-4 me-lg-5">
-                                            <a href="" class=" align-self-center">
-                                                <i class="fa-solid fa-reply fs-10 text-muted " title="Reply"></i>
+                                        <p class="position-absolute left-37 w-90 fs-10 mt-1 mb-0">
+                                            <a href="" class="d-inline-block text-dark text-truncate w-50 mb-0"> Replied
+                                                Uzoukwu
+                                                Chinedu: Lorem ipsum dolor sit, amet
+                                                consectetur adipisicing elit. Quos, pariatur?
                                             </a>
-                                        </span>
-                                    </div>
-                                    <div class="ms-2 me-1">
-                                        <p class="fs-8 mb-2">
-                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque nesciunt
-                                            omnis eum
-                                            voluptatibus eos cumque voluptas id dolorem, ducimus, sint corrupti quod
-                                            earum est
-                                            esse impedit. Cumque sapiente corporis distinctio molestias. Modi ea totam
-                                            distinctio est perspiciatis enim id! Sunt doloribus voluptatem sint error,
-                                            accusantium ipsam doloremque architecto autem quaerat.
+                                        </p>
+                                        <p class="mb-0 d-flex align-items-baseline">
+                                            <img src="images/ben-sweet-2LowviVHZ-E-unsplash.jpg" alt=""
+                                                class="p-pic rounded">
+                                            <span class="fs-7 fw-semibold mb-0 ps-1"> Uzoukwu Chinedu
+                                                <span class="fs-9 text-muted ps-2"> January 1, 2023 </span>
+                                            </span>
+                                            <span
+                                                class="reply position-absolute top-0 end-0 ms-auto me-sm-3 me-md-4 me-lg-5">
+                                                <a href="" class=" align-self-center">
+                                                    <i class="fa-solid fa-reply fs-10 text-muted " title="Reply"></i>
+                                                </a>
+                                            </span>
                                         </p>
                                     </div>
-                                </div>
-                            </div>
-
-                            <div
-                                class="comment-1 position-relative bg-secondary-subtle d-flex rounded-2 mx-2 my-2 pt-4 pb-2 px-2">
-                                <p class="position-absolute bg-dange top-0 start-0 fs-10 ms-5 mt-1">
-                                    <a href="" class="d-inline-block text-dark text-truncate w-50"> Replied Uzoukwu
-                                        Chinedu: Lorem ipsum dolor sit, amet
-                                        consectetur adipisicing elit. Quos, pariatur?
-                                    </a>
-                                </p>
-                                <img src="images/ben-sweet-2LowviVHZ-E-unsplash.jpg" alt="" class="p-pic rounded">
-                                <div class=" pt-0 flex-fill">
-                                    <div class="position-relative d-flex">
-                                        <p class="fs-7 fw-semibold mb-0 px-2">Uzoukwu Chinedu</p>
-                                        <span class="fs-9 text-muted align-self-center"> January 1, 2023 </span>
-                                        <span
-                                            class="reply position-absolute top-0 end-0 ms-auto me-sm-3 me-md-4 me-lg-5">
-                                            <a href="" class=" align-self-center">
-                                                <i class="fa-solid fa-reply fs-10 text-muted " title="Reply"></i>
-                                            </a>
-                                        </span>
-                                    </div>
-                                    <div class="ms-2 me-1">
-                                        <p class="fs-8 mb-2">
-                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque nesciunt
-                                            omnis eum
-                                            voluptatibus eos cumque voluptas id dolorem, ducimus, sint corrupti quod
-                                            earum est
-                                            esse impedit. Cumque sapiente corporis distinctio molestias. Modi ea totam
-                                            distinctio est perspiciatis enim id! Sunt doloribus voluptatem sint error,
-                                            accusantium ipsam doloremque architecto autem quaerat.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div
-                                class="comment-1 position-relative bg-secondary-subtle d-flex rounded-2 mx-2 my-2 pt-4 pb-2 px-2">
-                                <p class="position-absolute bg-dange top-0 start-0 fs-10 ms-5 mt-1">
-                                    <a href="" class="d-inline-block text-dark text-truncate w-50"> Replied Uzoukwu
-                                        Chinedu: Lorem ipsum dolor sit, amet
-                                        consectetur adipisicing elit. Quos, pariatur?
-                                    </a>
-                                </p>
-                                <img src="images/ben-sweet-2LowviVHZ-E-unsplash.jpg" alt="" class="p-pic rounded">
-                                <div class=" pt-0 flex-fill">
-                                    <div class="position-relative d-flex">
-                                        <p class="fs-7 fw-semibold mb-0 px-2">Uzoukwu Chinedu</p>
-                                        <span class="fs-9 text-muted align-self-center"> January 1, 2023 </span>
-                                        <span
-                                            class="reply position-absolute top-0 end-0 ms-auto me-sm-3 me-md-4 me-lg-5">
-                                            <a href="" class=" align-self-center">
-                                                <i class="fa-solid fa-reply fs-10 text-muted " title="Reply"></i>
-                                            </a>
-                                        </span>
-                                    </div>
-                                    <div class="ms-2 me-1">
+                                    <div class=" me-1">
                                         <p class="fs-8 mb-2">
                                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque nesciunt
                                             omnis eum
